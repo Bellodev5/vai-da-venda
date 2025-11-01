@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom small helpers */
+.btn-glow {
+  background-color: #f36d21;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 6px 28px rgba(243,109,33,0.26);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.btn-glow:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 10px 40px rgba(243, 109, 33, 0.36);
+}
+
+/* particle background */
+.particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* floating social icons container */
+.floating-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
+}
+
+/* small responsive tweaks */
+@media (max-width: 768px) {
+  .hide-sm {
+    display: none;
+  }
+}
