@@ -10,7 +10,7 @@ export default function Header(){
 
         <nav className="space-x-6 hidden md:flex font-semibold ">
           <a href="#vantagens" className="hover:text-brand">VANTAGENS</a>
-          <a href="#planos" className="hover:text-brand">PLANOS</a>
+          <a href="./planos.html" className="hover:text-brand">PLANOS</a>
           <a href="#plataforma" className="hover:text-brand">PLATAFORMA</a>
           <a href="#faq" className="hover:text-brand">FAQ</a>
         </nav>
