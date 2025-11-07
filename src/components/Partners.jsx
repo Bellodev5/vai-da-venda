@@ -1,6 +1,5 @@
 import React from 'react'
 
-// Importe todas as imagens
 import ademicon from '../assets/ademicon.png'
 import bwr from '../assets/bwr.png'
 import c6 from '../assets/c6.png'

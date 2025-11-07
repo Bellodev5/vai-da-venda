@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}"
@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#f36d21', // laranja base
+          DEFAULT: '#f36d21',
           dark: '#e85300'
         },
         footerbg: '#1E2429'
@@ -17,7 +17,7 @@ module.exports = {
         'soft': '0 10px 30px rgba(0,0,0,0.08)',
         'card': '0 10px 30px rgba(0,0,0,0.06)',
         'glow': '0 6px 28px rgba(243,109,33,0.26)',
-        'nav-soft' : '0 4px 6px rgba(0,0,0,0.04)'
+        'nav-soft': '0 4px 6px rgba(0,0,0,0.04)'
       },
       keyframes: {
         float: { 

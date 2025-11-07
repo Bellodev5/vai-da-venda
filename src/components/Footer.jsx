@@ -2,6 +2,9 @@ import React from 'react'
 import {FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa'
 import logoVAI from '../assets/logoVAI.png'
 export default function Footer(){
+  const phone = '554789231650' 
+  const message = `Olá! Me interessei pela VAI e gostaria de saber mais sobre a plataforma.`
+  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
   return (
     <footer className="bg-footerbg text-gray-300 py-12 px-6 md:px-20 mt-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 border-b border-gray-700 pb-10">
@@ -31,7 +34,7 @@ export default function Footer(){
           </a>
 
           <div className="flex space-x-4">
-            <a href="https://wa.me/554789231650?text=Olá! Gostaria de mais informações sobre a VAI." className="bg-gray-700 hover:bg-gray-600 p-2 rounded-full">
+            <a href={whatsappUrl} className="bg-gray-700 hover:bg-gray-600 p-2 rounded-full">
               <FaWhatsapp className="text-white" />
             </a>
             <a href="https://www.instagram.com/vaivendas/" className="bg-gray-700 hover:bg-gray-600 p-2 rounded-full">

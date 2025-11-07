@@ -6,7 +6,8 @@ import VideoSection from "./components/VideoSection";
 import URAFeature from "./components/URAFeature";
 import Partners from "./components/Partners";
 import Testimonials from "./components/Testimonials";
-import FAQ from "./components/Faq";
+import FaqHome from "./components/FaqHome";
+import QuestionButton from "./components/QuestionButton";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <Advantages />
       <Plans />
       <URAFeature />
-      <FAQ />
+      <FaqHome />
+      <QuestionButton/>
       <Footer />
     </div>
   );

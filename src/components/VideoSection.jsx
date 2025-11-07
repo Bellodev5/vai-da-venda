@@ -52,7 +52,7 @@ export default function VideoSection(){
               <div className="w-full aspect-[16/9]">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/VIDEO_ID?rel=0"
+                  src="https://www.youtube.com/embed/nwmhPX_zwmo"
                   title="Video explicativo VAI"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
