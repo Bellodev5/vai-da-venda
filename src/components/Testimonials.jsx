@@ -1,10 +1,15 @@
 import React from 'react'
 
+import ademicon from "../assets/ademicon.png";
+import fg from "../assets/fg.png";
+import oi from "../assets/oi.png";
+
 const reviews = [
-  { name:'Ademicon', company:'Consórcios', avatar:'src/assets/ademicon.png', text:`"Minhas vendas subiram muito após a automação. A Vai da Venda cuidou de tudo e acompanhou os resultados. Agora respondo leads em segundos e não perco mais oportunidades"` },
-  { name:'FG Empreendimentos', company:'Imobiliária', avatar:'src/assets/fg.png', text:`"A automação otimizou nosso funil. Agora nossa equipe fecha mais sem precisar trabalhar horas extras. O melhor investimento que fizemos este ano!"` },
-  { name:'OI', company:'Telecom', avatar:'src/assets/oi.png', text:`"Operamos com mais eficiência e conquistamos clientes que antes desistiam por falta de resposta rápida. A Vai da Venda revolucionou nosso atendimento!"` }
-]
+  { name: 'Ademicon', company: 'Consórcios', avatar: ademicon, text: `"Minhas vendas subiram muito..."` },
+  { name: 'FG Empreendimentos', company: 'Imobiliária', avatar: fg, text: `"A automação otimizou nosso funil..."` },
+  { name: 'OI', company: 'Telecom', avatar: oi, text: `"Operamos com mais eficiência..."` }
+];
+
 
 export default function Testimonials(){
   const phone = "554789231650";

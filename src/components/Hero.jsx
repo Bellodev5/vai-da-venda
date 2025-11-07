@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import sara from "../assets/sara.jpg";
+
 
 export default function Hero() {
   const [text, setText] = useState('')
@@ -70,7 +72,7 @@ export default function Hero() {
         <div className="md:w-1/2 flex justify-center">
           <div className="w-72 sm:w-80 md:w-[420px] rounded-xl overflow-hidden shadow-card">
             <img
-              src="src/assets/sara.jpg"
+              src={sara}
               alt="Imagem humanizada"
               className="w-full h-auto object-cover"
             />
