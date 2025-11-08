@@ -22,7 +22,7 @@ export default function FaqHome() {
     },
     {
       question: "A VAI substitui o atendimento humano?",
-      answer: "Não, ela complementa! A VAI cupla das perguntas frequentes e qualificação inicial, liberando sua equipe para focar nas vendas mais complexas e no relacionamento."
+      answer: "Não, ela complementa! A VAI faz a analise das perguntas frequentes e qualificação inicial, liberando sua equipe para focar nas vendas mais complexas e no relacionamento."
     },
     {
       question: "É seguro usar a VAI no meu WhatsApp?",
