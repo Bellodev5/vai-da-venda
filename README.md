@@ -7,7 +7,7 @@ O objetivo é oferecer uma página moderna, rápida e responsiva, com design ref
 
 ## 🖼️ Demonstração
 
-Acesse o projeto online: [https://vaidavenda.vercel.app](https://vaidavenda.vercel.app)
+Acesse o projeto online: [https://vaidavenda.vercel.app](https://vai-da-venda.vercel.app/)
 
 ---
 
