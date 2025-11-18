@@ -50,7 +50,17 @@ export default function Footer(){
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center pt-6 text-sm text-gray-500">
         <p>© {new Date().getFullYear()} Vai da Venda. Todos os direitos reservados.</p>
-        
+        <p className="mt-2">
+            Desenvolvido por{' '}
+            <a 
+              href="https://github.com/Bellodev5" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+            >
+              Guilherme Bello
+            </a>
+          </p>
       </div>
     </footer>
   )

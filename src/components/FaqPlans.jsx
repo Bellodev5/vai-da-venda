@@ -23,7 +23,7 @@ export default function FAQPlans(){
   }
 
   return (
-    <section id="faq-planos" className="py-20 bg-white min-h-screen flex items-center">
+    <section id="faq-planos" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-6 w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
