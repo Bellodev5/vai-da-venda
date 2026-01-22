@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import sara from "../assets/sara.jpg";
+import bruna from "../assets/bruna.png";
 
 export default function Hero() {
   const [text, setText] = useState('');
@@ -66,7 +66,7 @@ export default function Hero() {
 
         <div className="md:w-1/2 flex justify-center">
           <div className="w-[320px] md:w-[420px] rounded-xl overflow-hidden shadow-card">
-            <img src={sara} alt="Imagem humanizada" className="w-full h-full object-cover" />
+            <img src={bruna} alt="Imagem humanizada" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
