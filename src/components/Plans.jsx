@@ -17,7 +17,7 @@ const plans = [
     popular: false
   },
   {
-    name: 'Profissional',
+    name: 'Avançado',
     price: 'R$ 197',
     accounts: '5 Contas de WhatsApp',
     features: [
