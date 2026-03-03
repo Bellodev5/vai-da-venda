@@ -12,7 +12,7 @@ export default function HeroPlans() {
           ao cliente.
         </p>
         <button className="bg-[#ff5a1f] text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-orange-500/30 hover:scale-105 transition-all duration-300">
-          Experimente Grátis por 14 Dias
+          Fale com a nossa IA agora
         </button>
       </div>
     </section>

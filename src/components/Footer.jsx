@@ -3,7 +3,7 @@ import {FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa'
 import logoVAI from '../assets/logoVAI.png'
 
 export default function Footer(){
-  const phone = '554789231650' 
+    const phone = "5521988109215"; 
   const message = `Olá! Me interessei pela VAI e gostaria de saber mais sobre a plataforma.`
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
   

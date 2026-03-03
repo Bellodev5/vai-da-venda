@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
@@ -5,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import logo from "../assets/logoV.png";
 
 export default function Header() {
-  const phone = '554789231650';
+    const phone = "5521988109215";;
   const message = `Olá! Visitei o site da VAI e gostaria de saber mais sobre a empresa!.`;
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   const [menuOpen, setMenuOpen] = useState(false);

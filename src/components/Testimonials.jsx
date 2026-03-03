@@ -12,7 +12,7 @@ const reviews = [
 
 
 export default function Testimonials(){
-  const phone = "554789231650";
+  const phone = "5521988109215";
   const message = `Olá! Gostaria de vender mais agora com a ajuda da VAI!`;
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 

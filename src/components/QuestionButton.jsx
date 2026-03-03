@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function QuestionButton() {
-  const phone = "554789231650";
+  const phone = "5521988109215";
   const message = `Olá! Ainda tenho dúvidas sobre a VAI. Gostaria de saber mais informações.`;
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 

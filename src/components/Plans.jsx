@@ -45,7 +45,7 @@ const plans = [
 ]
 
 export default function Plans() {
-  const phone = '554789231650' 
+    const phone = "5521988109215"; 
 
   return (
     <section id="planos" className="py-20 bg-gradient-to-b from-gray-50 to-white">

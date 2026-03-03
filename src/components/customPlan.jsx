@@ -2,7 +2,7 @@ import React from "react";
 import { MessageCircle } from "lucide-react";
 
 export default function CustomPlanCTA() {
-  const phone = "554789231650";
+  const phone = "5521988109215";
   const whatsappUrl = `https://wa.me/${phone}?text=Quero um plano personalizado da VAI para a minha empresa 👋`;
 
   return (
