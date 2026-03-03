@@ -11,11 +11,13 @@ import FaqHome from "./components/FaqHome";
 import QuestionButton from "./components/QuestionButton";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop"; 
+import WhatsApp from "./components/WhatsApp";
 
 function App() {
   return (
     <div className="bg-white text-gray-900">
       <ScrollToTop />
+            <WhatsApp />
               <Header />
               <Hero />
               <Partners />
