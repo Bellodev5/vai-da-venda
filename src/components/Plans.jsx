@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const plans = [
   {
     name: 'Essencial',
-    price: 'R$ 97',
+    
     accounts: '1 Conta de WhatsApp',
     features: [
       'IA Progressiva',
@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: 'Avançado',
-    price: 'R$ 197',
+    
     accounts: '5 Contas de WhatsApp',
     features: [
       'IA Progressiva',
@@ -31,7 +31,7 @@ const plans = [
   },
   {
     name: 'Enterprise',
-    price: 'R$ 297',
+    
     accounts: '10 Contas de WhatsApp',
     features: [
       'IA Progressiva',
@@ -73,10 +73,7 @@ export default function Plans() {
                   </div>
                 )}
                 <h3 className="font-bold text-2xl text-gray-900">{p.name}</h3>
-                <div className="mt-3 text-3xl font-extrabold text-brand">
-                  {p.price}
-                  <span className="text-base text-gray-500 font-medium">/mês</span>
-                </div>
+                
                 <p className="mt-2 text-gray-700 font-medium">{p.accounts}</p>
 
                 <ul className="mt-6 space-y-3 text-gray-600 text-left">
